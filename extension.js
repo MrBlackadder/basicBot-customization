@@ -1,7 +1,7 @@
 (function () {
 
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "MrBlackadder";
 
     //Define our function responsible for extending the bot.
     function extend() {
@@ -56,30 +56,30 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "DJ_Blackadder",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupVolume: 25, // 0-100
         startupEmoji: false, // true or false
         autowoot: true,
         autoskip: false,
         smartSkip: true,
         cmdDeletion: true,
-        maximumAfk: 120,
-        afkRemoval: true,
-        maximumDc: 60,
+        maximumAfk: 9999999999999999,
+        afkRemoval: false,
+        maximumDc: 120,
         bouncerPlus: true,
-        blacklistEnabled: true,
+        blacklistEnabled: false,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
         voteSkip: false,
-        voteSkipLimit: 10,
-        historySkip: false,
-        timeGuard: true,
+        voteSkipLimit: 30,
+        historySkip: true,
+        timeGuard: false,
         maximumSongLength: 10,
         autodisable: true,
         commandCooldown: 30,
@@ -98,12 +98,12 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
-        filterChat: true,
+        motd: "Dfield's Official PlugDJ. Music 24/7",
+        filterChat: false,
         etaRestriction: false,
-        welcome: true,
+        welcome: false,
         opLink: null,
-        rulesLink: null,
+        rulesLink: http://prntscr.com/7msnqp,
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
